@@ -1,4 +1,7 @@
 #!/bin/bash
+#Archivo utilizado para volver a la configuracion anterior, todo lo que se modifique al
+#configurar el nuevo servicio dns, tendra que tener la devolucion a su estado anterior
+#Es el proposito de este Archivo, restaurar la configuracion dns (Aveces suele dar errores)
 
 # Colores para la salida
 COLOR_GREEN='\033[0;32m'
