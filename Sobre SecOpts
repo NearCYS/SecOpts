@@ -1,0 +1,42 @@
+#Enviar Tu Descripcion (3 campos por contribuidor)
+#+++===+++===+++===+++Agradecimientos a los Contribuidores===+++===+++===+++
+#NearCYS, Semilla de la idea, Estudiante de CiberSeguridad y Hacking (namorau De La Informatica)
+#Perfil: http://onnifo55jjkkrcrzx2jonjh45y32qfh3iuffllksbtmp7tpi2lbefpyd.onion/user-57215.html
+#Aportes: Configuracion de Dns Encriptado, Deshabilitacion de prtocolos inseguros(avahi demon, cups, multicast, autoreloj)
+
+#============================== Colaboradores ==============================
+# [Contacto]
+# [Tor Link]  http://onnifo55jjkkrcrzx2jonjh45y32qfh3iuffllksbtmp7tpi2lbefpyd.onion/user-57215.html
+# [Normal Link] https://www.onniforums.com/user-57215.html
+# [+] Secopts es una herramienta deidcada a aplicar y automatizar buenas practicas a la hora de
+# [+] configurar y modificar reglas a nivel de red predeterminadas en un entorno desde cero
+# [+] por ejemplo: Me instale kali, pero por defecto NO viene con una configuracion de dns encriptado
+# [+] otro ejemplo: Me instale lubuntu, pero por defecto tiene protocolos inseguros trabajando
+#      a nivel de red (por defecto, avahi demon (IOT) escuchando en la 0.0.0.0, elijiendo al servidor dns mas cercano
+#      haciendo suceptible a DNSSpoofing el sistema dns)
+# [+] En mi preferencia, prefiero tener control a que servidores se hacen las consultas dns y de forma encriptada
+
+# [++++++] Se aprecia el tiempo que se dedica a explicar la sintaxis :)
+
+# [+] Su colaboracion con el script es fundamental para que demas usuarios tambien podamos disfrutar del potencial de esta herramienta
+# [+] Contacto con el creador: onniforums usuario: NearCYS
+# [+] Cualquier ayuda, recomendacion o critica es bien recivida
+# [!] Reglas a seguir para aportar: El script no puede apuntar en ningun momento a direcciones externas 
+# [!] (Que no son de confianza, como repositorios de X user)
+# [!] Cadenas Obfuscada y Comportamientos Maliciosos no seran tomados enserio y no se le atribuiran reconocimientos 
+# [!] en el caso de ser utilizados en el script, se los comunico ahora para no hacerles perder tiempo!. 
+# [!] en el caso de detectar comportamientos maliciosos en el repositorio Secopts  reporteselos a: NearCYS
+
+# [#] Bom Proveito!
+
+###########################################################
+#    Script Principalmente desarroyado en kali rolling    #
+###########################################################
+#        Sistemas Operativos Compatibles        #
+#################################################
+#  Kali linux rolling / purple  |    x32 x64    #
+#  Debian                       |    x32 x64    #
+#  Ubuntu, Lubutu, Xubuntu      |    x32 x64    #
+#################################################
+#    Si existe otra distro compatible, avisar   #
+#################################################
