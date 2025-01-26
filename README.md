@@ -30,3 +30,13 @@ SecOpts esta pensado para computadores personales, por lo cual hay varias consid
 <div style="border: 1px solid #f39c12; background-color: #f9e79f; padding: 10px; border-radius: 5px;">
   <strong>Nota:</strong> Diseñado para computadores personales, no para sistemas IDS.
 </div>
+
+# Con respecto a las implementaciones nuevas que se vayan haciendo:
+El proyecto esta comentado, es como el mapa del proyecto, que explica que es lo que esta sucendiendo en los scripts y las acciones que se estan realizando
+esta iniciativa de documentar el proyecto a medida de que va avanzando es con el proposito de que cada desarroyador, entienda lo mas facil posible la arquitectura
+del proyecto, facilitando las implementaciones de seguridad.
+
+Por eso es importantes decirles que se compromentan en agregar la documentacion correspondiente a los cambios contribuidos/aplicados
+
+
+
