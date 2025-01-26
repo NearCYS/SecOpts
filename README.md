@@ -24,7 +24,9 @@ SecOpts no esta completo, tiene varias opciones de seguridad implemetadas y otra
 # A tener en cuenta
 
 SecOpts esta pensado para computadores personales, por lo cual hay varias consideraciones a tener en cuenta.
+
 [+] Lectura De Trafico Reducida: SecOpts Desactiva Protocolos, evitando el trafico de esos protocolos, por lo cual, con herramientas como wireshark, muchas de las peticiones/trafico de red no sera mostrado.
+
 <div style="border: 1px solid #f39c12; background-color: #f9e79f; padding: 10px; border-radius: 5px;">
   <strong>Nota:</strong> Diseñado para computadores personales, no para sistemas IDS.
 </div>
