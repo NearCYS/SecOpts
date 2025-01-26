@@ -1,12 +1,12 @@
 # Que Es SecOpts?
 
-SecOpts Es un repositorio dedicado a la seguridad informatica en el ambito mas personal que tiene el usuario, su computador. 
+SecOpts es un repositorio dedicado a la seguridad informática en el ámbito más personal que tiene el usuario: su computadora.
 
-Esta Herramienta  esta enfatizada en Modificar u eliminar los protocolos inseguros que vienen configurados por defecto en sistemas operativos linux como kali, debian, lubuntu, ubuntu, entre otros... Protocolos que en un principio fueron creados y configurados para funcionar, mas no para ser seguros, por lo que carecen de una configuracion de seguridad robusta. 
-Que es lo hace SecOpts? inspecciona las configuraciones y deshabilita los protocolos inseguros, cambiandolos por protocolos de seguridad robusta
-un ejemplo de esto es cuando detecta que systemd esta encargandose se las consultas DNS, que por defecto, se conecta al primer servidor dns que le aparezca
-SecOpts cuando detecta que esta SISTEMD esta trabajando, lo deshabilita y cambia de programa por uno con una seguridad mas robusta como con DNSCRYPT-PROXY, el cual establece un servidor dns el cual utiliza certificados para encriptar las peticiones, Evitando asi, atauques MITM y la Vigilacia masiva. talvez tambien otros veneficios
+Esta herramienta está enfocada en modificar o eliminar los protocolos inseguros que vienen configurados por defecto en sistemas operativos Linux como Kali, Debian, Lubuntu, Ubuntu, entre otros. Estos protocolos, que en un principio fueron creados y configurados para funcionar, no están diseñados para ser seguros, por lo que carecen de una configuración de seguridad robusta.
 
+¿Qué es lo que hace SecOpts? Inspecciona las configuraciones y deshabilita los protocolos inseguros, cambiándolos por protocolos de seguridad robusta. Un ejemplo de esto es cuando detecta que systemd se está encargando de las consultas DNS, que por defecto se conecta al primer servidor DNS que le aparece.
+
+Cuando SecOpts detecta que systemd está trabajando, lo deshabilita y lo reemplaza por un programa con una seguridad más robusta, como DNSCrypt-Proxy, el cual establece un servidor DNS que utiliza certificados para encriptar las peticiones, evitando así ataques MITM y la vigilancia masiva. Tal vez también ofrece otros beneficios.
 
 # Cambios
 SecOpts no esta completo, tiene varias opciones de seguridad implemetadas y otras en proceso de implementacion
