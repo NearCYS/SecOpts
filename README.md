@@ -14,9 +14,9 @@ SecOpts no esta completo, tiene varias opciones de seguridad implemetadas y otra
 # Configuraciones implementadas
 
     | Configuraciones     | Descripción          |
-|------------|----------------------|
-| Desactivacion zona horaria | Se desactiva la sincronizacion horaria automatica(opcional) |
-| Configuracion de Quad9 | Configura el servicio de quad9 como predeterminado, envitando el desvio de consultas dns |
+|:------------|:----------------------|
+|: Desactivacion zona horaria |: Se desactiva la sincronizacion horaria automatica(opcional) |
+|: Configuracion de Quad9 |: Configura el servicio de quad9 como predeterminado, envitando el desvio de consultas dns |
 | Desactivacion de protocolos inutiles | Desactiva protocolos inutiles que vienen activados por defecto, como lo son cups(servicio sincronizacion con impresoras) o avahi daemon (protocolo dns automatico, se conecta a cualquier servidor dns) |
 | Desactivacion de MultiCast| Se Desactiva Multicast, evitando que se comunique inecesariamente con otras computadoras en la misma red |
 | Desactivacion de protocolo ipv6 | +En Proceso de Implementacion+ |
