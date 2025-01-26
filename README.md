@@ -12,14 +12,12 @@ SecOpts cuando detecta que esta SISTEMD esta trabajando, lo deshabilita y cambia
 SecOpts no esta completo, tiene varias opciones de seguridad implemetadas y otras en proceso de implementacion
 
 # Configuraciones implementadas
+| Configuraciones                        | Descripción                                                                                      |
+|:---------------------------------------|:-------------------------------------------------------------------------------------------------|
+| Desactivación zona horaria             | Se desactiva la sincronización horaria automática (opcional)                                    |
+| Configuración de Quad9                 | Configura el servicio de Quad9 como predeterminado, evitando el desvío de consultas DNS        |
+| Desactivación de protocolos inútiles    | Desactiva protocolos inútiles que vienen activados por defecto, como CUPS o Avahi daemon       |
+| Desactivación de MultiCast             | Se desactiva Multicast, evitando que se comunique innecesariamente con otras computadoras en la misma red |
+| Desactivación de protocolo IPv6        | +En proceso de implementación+                                                                    |
+| Configuración de DNSCrypt              | DNSCrypt es útil para combatir la vigilancia masiva y ataques MITM                              |
 
-    | Configuraciones     | Descripción          |
-|:------------|:----------------------|
-|: Desactivacion zona horaria |: Se desactiva la sincronizacion horaria automatica(opcional) |
-|: Configuracion de Quad9 |: Configura el servicio de quad9 como predeterminado, envitando el desvio de consultas dns |
-| Desactivacion de protocolos inutiles | Desactiva protocolos inutiles que vienen activados por defecto, como lo son cups(servicio sincronizacion con impresoras) o avahi daemon (protocolo dns automatico, se conecta a cualquier servidor dns) |
-| Desactivacion de MultiCast| Se Desactiva Multicast, evitando que se comunique inecesariamente con otras computadoras en la misma red |
-| Desactivacion de protocolo ipv6 | +En Proceso de Implementacion+ |
-| Configuracion de dnscrypt | dns crypt es util para combatir la vigilancia masiva y ataques MITM |
-
-#
