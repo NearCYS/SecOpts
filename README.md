@@ -18,7 +18,7 @@ SecOpts no esta completo, tiene varias opciones de seguridad implemetadas y otra
 | Configuración de Quad9                 | Configura el servicio de Quad9 como predeterminado, evitando el desvío de consultas DNS        |
 | Desactivación de protocolos inútiles    | Desactiva protocolos inútiles que vienen activados por defecto, como CUPS o Avahi daemon       |
 | Desactivación de MultiCast             | Se desactiva Multicast, evitando que se comunique innecesariamente con otras computadoras en la misma red |
-| Desactivación de protocolo IPv6        | +En proceso de implementación+                                                                    |
+| Desactivación de protocolo IPv6        | +En proceso de implementación+     Obliga a Reducir El Trafico (si funciona ipv4, no hace falta ipv6)       |
 | Configuración de DNSCrypt              | DNSCrypt es útil para combatir la vigilancia masiva y ataques MITM  +En proceso de implementación+          |
 
 # A tener en cuenta
