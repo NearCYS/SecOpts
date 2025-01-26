@@ -31,6 +31,10 @@ SecOpts esta pensado para computadores personales, por lo cual hay varias consid
   <strong>Nota:</strong> Diseñado para computadores personales, no para sistemas IDS.
 </div>
 
+<div style="border: 1px solid #f39c12; background-color: #f9e79f; padding: 10px; border-radius: 5px;">
+  <strong>Nota:</strong> La idea es llegar a un proyecto que nos proteja de protocolos inseguros y vigilancia masiva.
+</div>
+
 # Con respecto a las implementaciones nuevas que se vayan haciendo:
 
 El proyecto está comentado; es como el mapa del proyecto, que explica qué es lo que está sucediendo en los scripts y las acciones que se están realizando. 
