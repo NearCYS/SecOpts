@@ -1,0 +1,117 @@
+   CGroup: /
+           ├─user.slice
+           │ └─user-1000.slice
+           │   ├─user@1000.service
+           │   │ └─init.scope
+           │   │   ├─944 /lib/systemd/systemd --user
+           │   │   └─946 (sd-pam)
+           │   └─session-c2.scope
+           │     ├─ 933 lightdm --session-child 12 19
+           │     ├─ 956 /usr/bin/lxsession -s Lubuntu -e LXDE
+           │     ├─1023 /usr/bin/dbus-launch --exit-with-session --sh-syntax
+           │     ├─1024 /usr/bin/dbus-daemon --syslog --fork --print-pid 5 --print-address 7 --session
+           │     ├─1065 /usr/bin/ssh-agent /usr/bin/im-launch /usr/bin/lxsession -s Lubuntu -e LXDE
+           │     ├─1113 /usr/lib/gvfs/gvfsd
+           │     ├─1118 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+           │     ├─1129 openbox --config-file /home/xaramay/.config/openbox/lubuntu-rc.xml
+           │     ├─1133 lxpanel --profile Lubuntu
+           │     ├─1150 pcmanfm --desktop --profile lubuntu
+           │     ├─1151 lxpolkit
+           │     ├─1152 xfce4-power-manager
+           │     ├─1157 /usr/lib/i386-linux-gnu/xfce4/xfconf/xfconfd
+           │     ├─1165 /usr/bin/ssh-agent -s
+           │     ├─1176 update-notifier
+           │     ├─1178 /usr/lib/i386-linux-gnu/xfce4/notifyd/xfce4-notifyd
+           │     ├─1190 nm-applet
+           │     ├─1204 light-locker
+           │     ├─1212 /usr/bin/pulseaudio --start --log-target=syslog
+           │     ├─1220 /usr/lib/dconf/dconf-service
+           │     ├─1222 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+           │     ├─1234 /usr/lib/gvfs/gvfs-goa-volume-monitor
+           │     ├─1241 /usr/lib/menu-cache/menu-cached /run/user/1000/menu-cached-:0
+           │     ├─1249 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+           │     ├─1276 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+           │     ├─1280 /usr/lib/indicator-sound-gtk2/indicator-sound-service
+           │     ├─1282 /usr/lib/i386-linux-gnu/indicator-application-service
+           │     ├─1289 /usr/lib/gvfs/gvfs-afc-volume-monitor
+           │     ├─1310 /usr/lib/gvfs/gvfsd-trash --spawner :1.2 /org/gtk/gvfs/exec_spaw/0
+           │     ├─1336 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+           │     ├─1509 /usr/bin/nm-connection-editor
+           │     ├─1526 /usr/lib/gvfs/gvfsd-network --spawner :1.2 /org/gtk/gvfs/exec_spaw/1
+           │     ├─1571 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.2 /org/gtk/gvfs/exec_spaw/12
+           │     ├─1600 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+           │     ├─1607 lxterminal
+           │     ├─1610 bash
+           │     ├─1674 sudo su
+           │     ├─1675 su
+           │     ├─1676 bash
+           │     ├─2092 /usr/lib/firefox/firefox
+           │     ├─2140 /usr/lib/firefox/firefox -contentproc -parentBuildID 20230522134052 -prefsLen 26845 -prefMapSize 234603 -appDir /usr/lib/firefox/browser {3cfc5bb7-a69b-4416-b108-510260dc0a42} 2092 true s
+           │     ├─2196 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 26966 -prefMapSize 234603 -jsInitLen 238780 -parentBuildID 20230522134052 -appDir /usr/lib/firefox/browser {345860
+           │     ├─2234 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 32466 -prefMapSize 234603 -jsInitLen 238780 -parentBuildID 20230522134052 -appDir /usr/lib/firefox/browser {4c4612
+           │     ├─2276 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 28918 -prefMapSize 234603 -jsInitLen 238780 -parentBuildID 20230522134052 -appDir /usr/lib/firefox/browser {5cc073
+           │     ├─2440 /usr/lib/firefox/firefox -contentproc -parentBuildID 20230522134052 -prefsLen 32570 -prefMapSize 234603 -appDir /usr/lib/firefox/browser {1ece74d5-a404-4e7c-b4af-95b7d74cbcd9} 2092 true r
+           │     ├─2446 /usr/lib/firefox/firefox -contentproc -parentBuildID 20230522134052 -sandboxingKind 0 -prefsLen 32570 -prefMapSize 234603 -appDir /usr/lib/firefox/browser {a8018078-c0a2-4b31-989c-7328340
+           │     ├─4815 /usr/lib/firefox/firefox -contentproc -childID 49 -isForBrowser -prefsLen 29242 -prefMapSize 234603 -jsInitLen 238780 -parentBuildID 20230522134052 -appDir /usr/lib/firefox/browser {868e0
+           │     ├─4841 /usr/lib/firefox/firefox -contentproc -childID 50 -isForBrowser -prefsLen 29242 -prefMapSize 234603 -jsInitLen 238780 -parentBuildID 20230522134052 -appDir /usr/lib/firefox/browser {ac0a5
+           │     ├─4997 /usr/lib/firefox/firefox -contentproc -childID 51 -isForBrowser -prefsLen 30878 -prefMapSize 234603 -jsInitLen 238780 -parentBuildID 20230522134052 -appDir /usr/lib/firefox/browser {47d04
+           │     ├─5282 /usr/lib/firefox/firefox -contentproc -childID 55 -isForBrowser -prefsLen 30878 -prefMapSize 234603 -jsInitLen 238780 -parentBuildID 20230522134052 -appDir /usr/lib/firefox/browser {ac4ae
+           │     ├─5285 /usr/lib/firefox/firefox -contentproc -childID 56 -isForBrowser -prefsLen 30878 -prefMapSize 234603 -jsInitLen 238780 -parentBuildID 20230522134052 -appDir /usr/lib/firefox/browser {127ed
+           │     ├─5320 /usr/lib/firefox/firefox -contentproc -childID 57 -isForBrowser -prefsLen 30878 -prefMapSize 234603 -jsInitLen 238780 -parentBuildID 20230522134052 -appDir /usr/lib/firefox/browser {518dd
+           │     ├─5431 systemctl status
+           │     └─5432 pager
+           ├─init.scope
+           │ └─1 /sbin/init splash
+           └─system.slice
+             ├─irqbalance.service
+             │ └─599 /usr/sbin/irqbalance --foreground
+             ├─lvm2-lvmetad.service
+             │ └─389 /sbin/lvmetad -f
+             ├─lightdm.service
+             │ ├─678 /usr/sbin/lightdm
+             │ └─694 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+             ├─upower.service
+             │ └─1202 /usr/lib/upower/upowerd
+             ├─NetworkManager.service
+             │ ├─ 600 /usr/sbin/NetworkManager --no-daemon
+             │ └─5019 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /run/dhclient-wlp5s0.pid -lf /var/lib/NetworkManager/dhclient-bd8c72d2-b3cc-42a4-993e-160f310d7c49-wlp5s0.lease -cf /var/
+             ├─dbus.service
+             │ └─594 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+             ├─accounts-daemon.service
+             │ └─616 /usr/lib/accountsservice/accounts-daemon
+             ├─kerneloops.service
+             │ ├─710 /usr/sbin/kerneloops --test
+             │ └─712 /usr/sbin/kerneloops
+             ├─udisks2.service
+             │ └─618 /usr/lib/udisks2/udisksd
+             ├─whoopsie.service
+             │ └─707 /usr/bin/whoopsie -f
+             ├─dnscrypt-proxy.service
+             │ └─5410 /usr/sbin/dnscrypt-proxy /etc/dnscrypt-proxy/dnscrypt-proxy.conf
+             ├─system-getty.slice
+             │ └─getty@tty1.service
+             │   └─698 /sbin/agetty -o -p -- \u --noclear tty1 linux
+             ├─wpa_supplicant.service
+             │ └─617 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+             ├─networkd-dispatcher.service
+             │ └─626 /usr/bin/python3 /usr/bin/networkd-dispatcher
+             ├─ModemManager.service
+             │ └─608 /usr/sbin/ModemManager
+             ├─systemd-logind.service
+             │ └─607 /lib/systemd/systemd-logind
+             ├─systemd-resolved.service
+             │ └─539 /lib/systemd/systemd-resolved
+             ├─packagekit.service
+             │ └─1943 /usr/lib/packagekit/packagekitd
+             ├─polkit.service
+             │ └─653 /usr/lib/policykit-1/polkitd --no-debug
+             ├─cron.service
+             │ └─614 /usr/sbin/cron -f
+             ├─systemd-udevd.service
+             │ └─394 /lib/systemd/systemd-udevd
+             ├─acpid.service
+             │ └─625 /usr/sbin/acpid
+             ├─rsyslog.service
+             │ └─601 /usr/sbin/rsyslogd -n
+             └─systemd-journald.service
+               └─374 /lib/systemd/systemd-journald
